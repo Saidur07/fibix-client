@@ -12,7 +12,7 @@ In the website, you can see:
 
 - Products : Here you will find the products of Fibix manufacturer.
 
-- Blogs : Here you can see the services of Fibix.
+- Blogs : Here you can see the blogs.
 
 - Login Page : You can login with your Email and password , Google , Github or Facebook
 
