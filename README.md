@@ -8,11 +8,11 @@ Fibix is a manufacturer compnay. You can buy products from the site.
 
 In the website, you can see:
 
-- Home Page : The page the brief description about Fibix
+- Home Page : The page the brief description about Fibix.
 
 - Products : Here you will find the products of Fibix manufacturer.
 
-- Services : Here you can see the services of Fibix.
+- Blogs : Here you can see the services of Fibix.
 
 - Login Page : You can login with your Email and password , Google , Github or Facebook
 
