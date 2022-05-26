@@ -15,21 +15,24 @@ const RequireNormalUser = ({ children }) => {
   const [user, setUser] = useState({});
   console.log(user);
   useEffect(() => {
-    fetch(`https://manufacturer-xpart.herokuapp.com/admin/${authUser?.email}`, {
-      method: "GET",
-      headers: {
-        "content-type": "application/json",
-        authorization: `Bearer ${localStorage.getItem("accessToken")}`,
-        email: `${authUser?.email}`,
-      },
-    })
+    fetch(
+      `https://cryptic-basin-00497.herokuapp.com/admin/${authUser?.email}`,
+      {
+        method: "GET",
+        headers: {
+          "content-type": "application/json",
+          authorization: `Bearer ${localStorage.getItem("accessToken")}`,
+          email: `${authUser?.email}`,
+        },
+      }
+    )
       .then((res) => res.json())
       .then((data) => {
         console.log(data);
         setAdmin(data);
       });
 
-    fetch(`https://manufacturer-xpart.herokuapp.com/user/${authUser?.email}`, {
+    fetch(`https://cryptic-basin-00497.herokuapp.com/user/${authUser?.email}`, {
       method: "GET",
       headers: {
         "content-type": "application/json",

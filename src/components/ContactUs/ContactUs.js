@@ -25,8 +25,8 @@ const ContactUs = () => {
             <h5 className="my-4">
               <FontAwesomeIcon className="me-3" icon={faEnvelope} />
               Official:
-              <a className="ps-3" href="https://manufacturer-xpart.web.app/">
-                https://manufacturer-xpart.web.app/
+              <a className="ps-3" href="https://fibix-123.web.app/">
+                https://fibix-123.web.app/
               </a>
             </h5>
             <h5 className="mb-lg-0 mb-5">

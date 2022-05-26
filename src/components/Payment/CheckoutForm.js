@@ -18,7 +18,7 @@ const CheckoutForm = (props) => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch("https://manufacturer-xpart.herokuapp.com/create-payment-intent", {
+    fetch("https://cryptic-basin-00497.herokuapp.com/create-payment-intent", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -97,7 +97,7 @@ const CheckoutForm = (props) => {
   useEffect(() => {
     if (transactionId) {
       fetch(
-        `https://manufacturer-xpart.herokuapp.com/orders/${requiredOrder?._id}`,
+        `https://cryptic-basin-00497.herokuapp.com/orders/${requiredOrder?._id}`,
         {
           method: "PUT",
           headers: {

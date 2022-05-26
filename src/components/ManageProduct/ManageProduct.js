@@ -39,7 +39,7 @@ const ManageProduct = () => {
     if (proceed) {
       setReload(true);
       fetch(
-        `https://manufacturer-xpart.herokuapp.com/product/${deleteOrderId}`,
+        `https://cryptic-basin-00497.herokuapp.com/product/${deleteOrderId}`,
         {
           method: "DELETE",
           headers: {

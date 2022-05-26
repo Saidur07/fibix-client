@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 const useBlogs = () => {
   //Declaring React States
@@ -8,7 +8,7 @@ const useBlogs = () => {
   // useEffect Hook to Fetch blogs data from server api
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://manufacturer-xpart.herokuapp.com/blogs", {
+    fetch("https://cryptic-basin-00497.herokuapp.com/blogs", {
       method: "GET",
       headers: {
         "content-type": "application/json",

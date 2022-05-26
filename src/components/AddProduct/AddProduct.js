@@ -55,7 +55,7 @@ const AddProduct = () => {
               availableQuantity: data.availableQuantity,
               toolDescription: data.toolDescription,
             };
-            fetch("https://manufacturer-xpart.herokuapp.com/product", {
+            fetch("https://cryptic-basin-00497.herokuapp.com/product", {
               method: "POST",
               headers: {
                 "content-type": "application/json",

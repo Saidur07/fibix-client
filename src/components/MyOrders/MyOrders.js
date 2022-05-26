@@ -31,7 +31,7 @@ const MyOrders = () => {
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      `https://manufacturer-xpart.herokuapp.com/orders/${authUser?.email}`,
+      `https://cryptic-basin-00497.herokuapp.com/orders/${authUser?.email}`,
       {
         headers: {
           "Content-Type": "application/json",
@@ -174,7 +174,7 @@ const MyOrders = () => {
       setReload(true);
       axiosPrivate
         .delete(
-          `https://manufacturer-xpart.herokuapp.com/orders/${cancelOrderId}`,
+          `https://cryptic-basin-00497.herokuapp.com/orders/${cancelOrderId}`,
           {
             headers: {
               "Content-Type": "application/json",

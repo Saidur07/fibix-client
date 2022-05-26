@@ -28,7 +28,7 @@ const ManageOrders = () => {
       setReload(true);
       axiosPrivate
         .put(
-          `https://manufacturer-xpart.herokuapp.com/orders/${id}`,
+          `https://cryptic-basin-00497.herokuapp.com/orders/${id}`,
           { isDelivered: true },
           {
             headers: {
@@ -52,7 +52,7 @@ const ManageOrders = () => {
               ).toString(),
             };
             fetch(
-              `https://manufacturer-xpart.herokuapp.com/product/${requiredTool._id}`,
+              `https://cryptic-basin-00497.herokuapp.com/product/${requiredTool._id}`,
               {
                 method: "PUT",
                 headers: {

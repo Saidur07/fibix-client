@@ -11,7 +11,7 @@ const MyProfile = () => {
   const [user, setUser] = useState({});
 
   useEffect(() => {
-    fetch(`https://manufacturer-xpart.herokuapp.com/user/${authUser?.email}`, {
+    fetch(`https://cryptic-basin-00497.herokuapp.com/user/${authUser?.email}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

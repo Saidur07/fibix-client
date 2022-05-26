@@ -44,7 +44,7 @@ function App() {
     if (authUser) {
       axiosPrivate
         .put(
-          `https://manufacturer-xpart.herokuapp.com/user/${authUser?.email}`,
+          `https://cryptic-basin-00497.herokuapp.com/user/${authUser?.email}`,
           { email: authUser?.email, role: "user" },
           {
             headers: {

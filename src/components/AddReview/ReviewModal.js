@@ -67,7 +67,7 @@ const ReviewModal = (props) => {
         <Button
           className="btn btn-success d-block mx-auto px-5"
           onClick={async () => {
-            fetch("https://manufacturer-xpart.herokuapp.com/review", {
+            fetch("https://cryptic-basin-00497.herokuapp.com/review", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
@@ -87,7 +87,7 @@ const ReviewModal = (props) => {
               .then((json) => {
                 console.log(json);
                 fetch(
-                  `https://manufacturer-xpart.herokuapp.com/orders/${reviewOrderId}`,
+                  `https://cryptic-basin-00497.herokuapp.com/orders/${reviewOrderId}`,
                   {
                     method: "PUT",
                     headers: {

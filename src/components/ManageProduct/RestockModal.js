@@ -23,7 +23,7 @@ const RestockModal = (props) => {
 
   const handleUpdateStock = (e) => {
     setReloadModal(true);
-    fetch(`https://manufacturer-xpart.herokuapp.com/product/${restockId}`, {
+    fetch(`https://cryptic-basin-00497.herokuapp.com/product/${restockId}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

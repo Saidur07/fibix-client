@@ -19,7 +19,7 @@ const useReviewDeliver = (reloadModal) => {
   useEffect(() => {
     setIsLoading(true);
     fetch(
-      `https://manufacturer-xpart.herokuapp.com/orders/${authUser?.email}/true`,
+      `https://cryptic-basin-00497.herokuapp.com/orders/${authUser?.email}/true`,
       {
         headers: {
           "Content-Type": "application/json",

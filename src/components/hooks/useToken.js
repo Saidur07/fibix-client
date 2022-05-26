@@ -10,9 +10,12 @@ const useToken = (user) => {
     const getToken = async () => {
       const email = user?.email;
       if (email) {
-        const { data } = await axios.post("https://manufacturer-xpart.herokuapp.com/login", {
-          email,
-        });
+        const { data } = await axios.post(
+          "https://cryptic-basin-00497.herokuapp.com/login",
+          {
+            email,
+          }
+        );
         setToken(data.accessToken);
         localStorage.setItem("accessToken", data.accessToken);
       }

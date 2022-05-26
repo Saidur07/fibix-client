@@ -11,7 +11,7 @@ const useAdmin = (user) => {
     const email = user?.email;
     console.log(email);
     if (email) {
-      fetch(`https://manufacturer-xpart.herokuapp.com/verify/admin/${email}`, {
+      fetch(`https://cryptic-basin-00497.herokuapp.com/verify/admin/${email}`, {
         method: "GET",
         headers: {
           "content-type": "application/json",
@@ -25,7 +25,7 @@ const useAdmin = (user) => {
           setAdminLoading(false);
         });
     }
-  }, [user]);
+  }, [authUser?.email, user]);
 
   console.log(admin);
 

@@ -30,7 +30,7 @@ const ConfirmPurchase = () => {
   useEffect(() => {
     setReload(true);
     axiosPrivate
-      .get(`https://manufacturer-xpart.herokuapp.com/tools/${params.id}`, {
+      .get(`https://cryptic-basin-00497.herokuapp.com/tools/${params.id}`, {
         headers: {
           email: authUser?.email,
         },
@@ -97,7 +97,7 @@ const ConfirmPurchase = () => {
   const handleSubmit = () => {
     if (address && phoneNumber) {
       axiosPrivate
-        .post("https://manufacturer-xpart.herokuapp.com/orders", userOrder, {
+        .post("https://cryptic-basin-00497.herokuapp.com/orders", userOrder, {
           headers: {
             email: authUser?.email,
           },

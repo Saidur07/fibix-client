@@ -15,7 +15,7 @@ const UpdateProfile = () => {
   console.log(user);
 
   useEffect(() => {
-    fetch(`https://manufacturer-xpart.herokuapp.com/user/${authUser?.email}`, {
+    fetch(`https://cryptic-basin-00497.herokuapp.com/user/${authUser?.email}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",
@@ -66,7 +66,7 @@ const UpdateProfile = () => {
             };
             console.log(userInfo);
             fetch(
-              `https://manufacturer-xpart.herokuapp.com/update/user/${authUser.email}`,
+              `https://cryptic-basin-00497.herokuapp.com/update/user/${authUser.email}`,
               {
                 method: "PUT",
                 headers: {
@@ -108,7 +108,7 @@ const UpdateProfile = () => {
       };
       console.log(userInfo);
       fetch(
-        `https://manufacturer-xpart.herokuapp.com/update/user/${authUser.email}`,
+        `https://cryptic-basin-00497.herokuapp.com/update/user/${authUser.email}`,
         {
           method: "PUT",
           headers: {

@@ -19,7 +19,7 @@ const MakeAdmin = () => {
   const handleMakeAdmin = (email) => {
     console.log(email);
     setReload(true);
-    fetch(`https://manufacturer-xpart.herokuapp.com/user/admin/${email}`, {
+    fetch(`https://cryptic-basin-00497.herokuapp.com/user/admin/${email}`, {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",
@@ -41,7 +41,7 @@ const MakeAdmin = () => {
       return;
     }
     setReload(true);
-    fetch(`https://manufacturer-xpart.herokuapp.com/user/admin/${email}`, {
+    fetch(`https://cryptic-basin-00497.herokuapp.com/user/admin/${email}`, {
       method: "DELETE",
       headers: {
         "Content-Type": "application/json",

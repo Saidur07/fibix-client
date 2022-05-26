@@ -42,19 +42,8 @@ const SignUp = () => {
     e.preventDefault();
 
     //Validating Password and Confirm Password
-    if (password.length < 8) {
+    if (password.length < 6) {
       setError("Password must be at least 8 characters");
-      return;
-    }
-
-    if (
-      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/.test(
-        password
-      ) === false
-    ) {
-      setError(
-        "Password must contain at least one lowercase letter, one uppercase letter, one number and one special character"
-      );
       return;
     }
 
