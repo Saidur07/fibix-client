@@ -1,4 +1,4 @@
-# Fibix!
+# Fibix
 
 Live Site Link : [https://fibix-123.web.app](https://fibix-123.web.app)
 
