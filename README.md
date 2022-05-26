@@ -8,7 +8,7 @@ Fibix is a manufacturer compnay. You can buy products from the site.
 
 In the website, you can see:
 
-- Home Page : The page the brief desc
+- Home Page : The page the brief description
 
 - Products : Here you will find the products of Fibix manufacturer.
 
